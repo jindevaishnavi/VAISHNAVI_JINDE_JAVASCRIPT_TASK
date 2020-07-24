@@ -1,0 +1,114 @@
+#data {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: fit-content;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 420px;
+  margin-right: 450px;
+}
+
+ 
+#data ,p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.nav{
+background-color: lightskyblue;
+width: 26.5%;
+color:white;
+margin-top:2%;
+font-size : 15px;
+text-align: left;
+}
+ .inner-addon .glyphicon {
+              position: absolute;
+              padding: 10px;
+              pointer-events: none;
+            }
+            .left-addon .glyphicon  { left:  0px;}
+            .right-addon .glyphicon { right: 0px;}
+
+            .left-addon input  { padding-left:  30px; }
+            .right-addon input { padding-right: 30px; }
+            input{
+                border-style:solid;
+                border:none;
+                border-width:1px;
+                border:1px solid #729fb8;
+                height: 30px;
+                border-radius: 4px;
+                width :25%;
+            }
+            button{
+                border-radius: 8px;
+                color:white;
+                border-style:solid;
+                border:none;
+                border-width:0.5px;
+                border:1px solid #729fb8;
+                font-family: Verdana;
+            }
+ #b1{
+   background-color: lightskyblue;
+ width : 25%;
+ height : 35px;
+            }
+#b2{
+     background-color: #4e69aa;
+     width: 25%;
+            }
+ #b3{
+      background-color: #d9463e;
+      width : 25%;
+            }
+ #b4{  background-color: #e1e114;
+ width : 25%;
+ height : 35px;
+            }
+hr{
+    width: 25%;
+  }
+
+
+.input-icons i { 
+    position: absolute; 
+        } 
+          
+.input-icons { 
+  width: 100%; 
+  margin-bottom: 10px; 
+        } 
+          
+.icon { 
+    padding: 10px; 
+    min-width: 40px; 
+        }
+#register
+{
+  background-color: powderblue;
+  color: grey;
+}
